@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name | Portfolio</title>
+  <title>DNYANDIP JAMDHADE | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
@@ -16,7 +16,7 @@
   <!-- ===== HEADER / NAVBAR ===== -->
   <header class="header">
     <div class="container nav-container">
-      <div class="logo">Your<span>Name</span></div>
+      <div class="logo">DNYANDIP<span>JAMDHADE</span></div>
       <nav class="nav" id="navMenu">
         <a href="#home" class="nav-link">Home</a>
         <a href="#about" class="nav-link">About</a>
@@ -25,9 +25,7 @@
         <a href="#resume" class="nav-link">Resume</a>
         <a href="#contact" class="nav-link">Contact</a>
       </nav>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-        ☰
-      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
     </div>
   </header>
 
@@ -36,11 +34,11 @@
     <div class="container hero-container reveal">
       <div class="hero-text">
         <p class="hero-tagline">Hi, I'm</p>
-        <h1>Your Name</h1>
-        <h2>Front-End Developer & Problem Solver</h2>
+        <h1>DNYANDIP JAMDHADE</h1>
+        <h2>Fullstack and Web Developer | Student</h2>
         <p class="hero-desc">
           I build fast, responsive, and accessible web experiences using
-          HTML, CSS, and JavaScript.
+          HTML, CSS, JavaScript, and the MERN stack.
         </p>
         <div class="hero-actions">
           <a href="#projects" class="btn primary-btn">View Projects</a>
@@ -48,8 +46,7 @@
         </div>
       </div>
       <div class="hero-image">
-        <!-- Replace with your own photo -->
-        <img src="yourphoto.jpg" alt="Your Name" />
+        <img src="yourphoto.jpg" alt="DNYANDIP JAMDHADE" />
       </div>
     </div>
   </section>
@@ -63,8 +60,8 @@
         <div class="about-text">
           <p>
             I'm a web developer focused on crafting clean, user-friendly
-            interfaces and experiences. I love experimenting with modern web
-            technologies and continuously improving my skills.
+            interfaces and full-stack applications. I enjoy building projects
+            and continuously improving my development skills.
           </p>
           <p>
             When I'm not coding, I explore new tools, read tech blogs, and work
@@ -73,10 +70,10 @@
         </div>
         <div class="about-details">
           <ul>
-            <li><strong>Name:</strong> Your Name</li>
-            <li><strong>Location:</strong> Your City, Country</li>
-            <li><strong>Email:</strong> yourmail@example.com</li>
-            <li><strong>Role:</strong> Web Developer / Student</li>
+            <li><strong>Name:</strong> DNYANDIP JAMDHADE</li>
+            <li><strong>Location:</strong> Yeola, Nashik</li>
+            <li><strong>Email:</strong> dnyandipjamdhade22@gmail.com</li>
+            <li><strong>Role:</strong> Fullstack & Web Developer | Student</li>
           </ul>
         </div>
       </div>
@@ -95,14 +92,16 @@
             <li>HTML5</li>
             <li>CSS3 (Flexbox, Grid)</li>
             <li>JavaScript (ES6+)</li>
+            <li>React (basic)</li>
             <li>Responsive Design</li>
           </ul>
         </div>
         <div class="skill-card">
-          <h3>Frameworks</h3>
+          <h3>Backend</h3>
           <ul>
-            <li>React (basic)</li>
-            <li>Bootstrap / Tailwind (optional)</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB (basic)</li>
           </ul>
         </div>
         <div class="skill-card">
@@ -130,6 +129,7 @@
     <div class="container reveal">
       <h2 class="section-title">Projects</h2>
       <p class="section-subtitle">Some things I’ve built</p>
+
       <div class="projects-grid">
         <article class="project-card">
           <h3>Portfolio Website</h3>
@@ -179,7 +179,6 @@
       </p>
       <div class="resume-box">
         <p>View my full resume with education, experience, and skills.</p>
-        <!-- Put your real PDF file here -->
         <a href="resume.pdf" class="btn primary-btn" download>Download Resume</a>
       </div>
     </div>
@@ -190,6 +189,7 @@
     <div class="container reveal">
       <h2 class="section-title">Contact</h2>
       <p class="section-subtitle">Let’s build something together</p>
+
       <div class="contact-grid">
         <div class="contact-info">
           <p>
@@ -197,15 +197,16 @@
             say hi!
           </p>
           <ul>
-            <li><strong>Email:</strong> yourmail@example.com</li>
-            <li><strong>Phone:</strong> +91-9876543210</li>
-            <li><strong>Location:</strong> Your City, Country</li>
+            <li><strong>Email:</strong> dnyandipjamdhade22@gmail.com</li>
+            <li><strong>Phone:</strong> 9272792840</li>
+            <li><strong>Location:</strong> Yeola, Nashik</li>
           </ul>
         </div>
-        <form class="contact-form" onsubmit="event.preventDefault(); alert('This is a demo form. Integrate with backend or email service.');">
-          <input type="text" placeholder="Your Name" required />
-          <input type="email" placeholder="Your Email" required />
-          <textarea rows="4" placeholder="Your Message" required></textarea>
+
+        <form class="contact-form" id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
           <button type="submit" class="btn primary-btn full-width">
             Send Message
           </button>
@@ -217,10 +218,10 @@
   <!-- ===== FOOTER ===== -->
   <footer class="footer">
     <div class="container footer-container">
-      <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+      <p>&copy; <span id="year"></span> DNYANDIP JAMDHADE. All rights reserved.</p>
       <div class="footer-links">
-        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+        <a href="https://github.com/DnyandipJamdhade" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/dnyandip-jamdhade-a4571a333/" target="_blank">LinkedIn</a>
       </div>
     </div>
   </footer>
