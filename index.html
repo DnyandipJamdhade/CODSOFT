@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <!-- ===== Theme Toggle ===== -->
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+    🌙
+  </button>
+
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">Your<span>Name</span></div>
+      <nav class="nav" id="navMenu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#resume" class="nav-link">Resume</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="container hero-container reveal">
+      <div class="hero-text">
+        <p class="hero-tagline">Hi, I'm</p>
+        <h1>Your Name</h1>
+        <h2>Front-End Developer & Problem Solver</h2>
+        <p class="hero-desc">
+          I build fast, responsive, and accessible web experiences using
+          HTML, CSS, and JavaScript.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary-btn">View Projects</a>
+          <a href="#contact" class="btn secondary-btn">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- Replace with your own photo -->
+        <img src="yourphoto.jpg" alt="Your Name" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="section" id="about">
+    <div class="container reveal">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">Who I am & what I do</p>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a web developer focused on crafting clean, user-friendly
+            interfaces and experiences. I love experimenting with modern web
+            technologies and continuously improving my skills.
+          </p>
+          <p>
+            When I'm not coding, I explore new tools, read tech blogs, and work
+            on side projects to sharpen my problem-solving skills.
+          </p>
+        </div>
+        <div class="about-details">
+          <ul>
+            <li><strong>Name:</strong> Your Name</li>
+            <li><strong>Location:</strong> Your City, Country</li>
+            <li><strong>Email:</strong> yourmail@example.com</li>
+            <li><strong>Role:</strong> Web Developer / Student</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section class="section" id="skills">
+    <div class="container reveal">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-subtitle">Technologies & tools I work with</p>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Front-End</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3 (Flexbox, Grid)</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Responsive Design</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Frameworks</h3>
+          <ul>
+            <li>React (basic)</li>
+            <li>Bootstrap / Tailwind (optional)</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <ul>
+            <li>Git & GitHub</li>
+            <li>VS Code</li>
+            <li>Chrome DevTools</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Problem Solving</li>
+            <li>Teamwork</li>
+            <li>Time Management</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section class="section" id="projects">
+    <div class="container reveal">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">Some things I’ve built</p>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>
+            A responsive personal portfolio built with HTML, CSS, and JavaScript,
+            featuring smooth scrolling and dark mode.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">Source Code</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Landing Page</h3>
+          <p>
+            A clean product landing page with modern layout, built for a
+            fictional startup.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">Source Code</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Calculator App</h3>
+          <p>
+            A basic calculator using HTML, CSS, and JavaScript with keyboard
+            support and custom styling.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank">Live Demo</a>
+            <a href="#" target="_blank">Source Code</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESUME SECTION ===== -->
+  <section class="section" id="resume">
+    <div class="container reveal">
+      <h2 class="section-title">Resume</h2>
+      <p class="section-subtitle">
+        Download my resume for more detailed information
+      </p>
+      <div class="resume-box">
+        <p>View my full resume with education, experience, and skills.</p>
+        <!-- Put your real PDF file here -->
+        <a href="resume.pdf" class="btn primary-btn" download>Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="section" id="contact">
+    <div class="container reveal">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-subtitle">Let’s build something together</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>
+            Feel free to reach out for internships, collaborations, or just to
+            say hi!
+          </p>
+          <ul>
+            <li><strong>Email:</strong> yourmail@example.com</li>
+            <li><strong>Phone:</strong> +91-9876543210</li>
+            <li><strong>Location:</strong> Your City, Country</li>
+          </ul>
+        </div>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('This is a demo form. Integrate with backend or email service.');">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn primary-btn full-width">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
